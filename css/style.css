@@ -7,16 +7,16 @@
     text-decoration: none;
   }
   
-  #wrap {
+  /*#wrap {
     width: 84%;
     max-width: 1280px;
     margin: 0 auto;
-  }
+  }*/
   
 header {
   background: #99CCFF;
   color: #FFF;
-  padding: 5px 20px;
+  padding: 10px 20px;
   position: relative;
   position: sticky;
   top: 0;
@@ -53,19 +53,21 @@ header {
     flex-direction: row-reverse;
     height: auto;
     font-family:  'Kiwi Maru', cursive, serif;
+    text-align: center;
   }
   
-section {
+/*section {
   background: #EEE;
   flex: 3;
   padding: 30px;
-}
+}*/
 
 article {
   background: #FFF;
   padding: 20px;
   margin-bottom: 20px;
 }
+
 
 aside {
   background: #DDD;
@@ -97,7 +99,7 @@ footer {
 
 header h1 {
   font-family: 'Kalam','Kiwi Maru', cursive, serif;
-  font-size: 50px;
+  font-size: 30px;
 }
 
 header h1 a {
@@ -165,12 +167,18 @@ footer p {
   font-family: 'Kalam', cursive;
 }
 
+
 article img {
+
   max-width: 600px;
   width: 100%;
   display: block;
   margin: 10px auto;
   box-sizing: border-box;
+}
+
+.flex {
+  display: flex; /*横並び*/
 }
 
 /*works img*/
