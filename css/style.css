@@ -14,7 +14,7 @@
   }*/
   
 header {
-  background: #99CCFF;
+  background: #f6b18e;
   color: #FFF;
   padding: 10px 20px;
   position: relative;
@@ -23,7 +23,7 @@ header {
 }
 
 .main-menu {
-  background: #99CCFF;
+  background: #f6b18e;
   color: #FFF;
   position: absolute;
   top: 15px;
@@ -43,17 +43,20 @@ header {
   }
 
   .main-menu ul li a:hover {
-    background: #99CCFF;
+    background: #f6b18e;
     color: #fcf25c;
   }
 
   main {
-    color: #5764af;
+    color: #8a6856;
+    width: 84%;
+    max-width: 1280px;
     display: flex;
     flex-direction: row-reverse;
     height: auto;
     font-family:  'Kiwi Maru', cursive, serif;
     text-align: center;
+    margin: 0 auto;
   }
   
 /*section {
@@ -91,7 +94,7 @@ aside {
 
 
 footer {
-  background: #99CCFF;
+  background: #f6b18e;
   color: #FFF;
   padding: 20px;
   text-align: center;
@@ -113,7 +116,7 @@ color:#fcf25c;
 main h2 {
   font-family: 'Kalam','Kiwi Maru', cursive, serif;
   font-size: 30px;
-  color: #8093ff;
+  color: #8a6856;
   text-align: center;
 }
 
