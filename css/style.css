@@ -52,10 +52,10 @@ header {
     width: 84%;
     max-width: 1280px;
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     height: auto;
     font-family:  'Kiwi Maru', cursive, serif;
-    text-align: center;
+    /*text-align: center;*/
     margin: 0 auto;
   }
   
@@ -69,6 +69,7 @@ article {
   background: #FFF;
   padding: 20px;
   margin-bottom: 20px;
+  
 }
 
 
@@ -180,13 +181,29 @@ article img {
   box-sizing: border-box;
 }
 
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.pict {
+  width: 100%;
+  
+}
+
+.text {
+  text-align: left;
+}
+
 .flex {
   display: flex; /*横並び*/
+  align-items: center;
 }
 
 /*works img*/
 a img{
-  width: 40%;
+  width: 100%;
   height: auto;
 }
 
@@ -249,4 +266,11 @@ html {
   .sub-menu ul li {
     text-align: center;
   }
+  
+  .box{
+    display: flex;
+    flex-direction: column;
+  }
+  
 }
+
