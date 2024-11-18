@@ -238,6 +238,7 @@ html {
     flex-direction: unset;
   }
   
+  
 }
 
 /*スマホ用*/
@@ -270,6 +271,10 @@ html {
   .box{
     display: flex;
     flex-direction: column;
+  }
+  .pict {
+    width: 100%;
+    
   }
   
 }
