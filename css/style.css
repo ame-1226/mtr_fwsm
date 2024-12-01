@@ -204,6 +204,11 @@ article img {
   align-items: center;
 }
 
+.flexbox{
+  flex-direction: column;
+  flex: 1;
+}
+
 /*works img*/
 a img{
   width: 100%;
@@ -288,5 +293,10 @@ html {
     margin: 0;
   }
   
+  .flex{
+    flex-direction: column;
+  }
+  
 }
+
 
