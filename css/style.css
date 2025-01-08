@@ -72,6 +72,16 @@ article {
   
 }
 
+article a{
+  color: #8a6856;
+  text-decoration: underline;
+  text-decoration-color: #f6b18e;
+}
+
+article a:hover{
+  color: #f6b18e;
+}
+
 
 aside {
   background: #DDD;
@@ -119,6 +129,7 @@ main h2 {
   font-size: 30px;
   color: #8a6856;
   text-align: center;
+  margin-top: 15px;
 }
 
 main span{
@@ -179,7 +190,8 @@ article img {
   display: block;
   margin: 10px auto;
   box-sizing: border-box;
-  background-color: #707178;
+  /*background-color: #707178;*/
+  border-radius:20px;
 }
 
 .box {
@@ -194,10 +206,19 @@ article img {
   
 }
 
+.pict img{
+  border-radius:20px;
+}
+
 .text {
   text-align: left;
   margin-left: 20px;
   flex: 1;
+  margin-top: 35px;
+}
+
+.text p{
+  margin-top: 20px;
 }
 
 .flex {
@@ -215,7 +236,8 @@ a img{
   width: 100%;
   height: auto;
   padding: 10px;
-  background-color: #707178;
+  /*background-color: #707178;*/
+  border-radius:20px;
 }
 
 img {

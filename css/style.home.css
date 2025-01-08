@@ -65,6 +65,13 @@ header {
   padding: 30px;
 }*/
 
+.main-vl img{
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
 article {
   background: #FFF;
   padding: 20px;
@@ -294,6 +301,7 @@ html {
   .box{
     display: flex;
     flex-direction: column;
+   
   }
   .pict {
     width: 100%;
